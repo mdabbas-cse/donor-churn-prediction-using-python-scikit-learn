@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test / tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Note: data/raw/donors.csv, models/*.joblib and reports/ are kept on purpose.
+# They are small, fully reproducible, and the README gallery links to reports/figures/.
